@@ -1,0 +1,33 @@
+.custom-row {
+  height: 100vh;
+  margin: 0;
+}
+.custom-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-style {
+  height: 72px;
+  width: 120px;
+}
+.header-appname {
+  font-size: 32px;
+  color: beige;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+.header-tagline {
+  color: beige;
+  text-align: center;
+}
+.google-button-container {
+  margin: 10px;
+  text-align: center;
+}
+.login-msg {
+  margin: 5px;
+  text-align: center;
+  font-size: 24px;
+  color: aliceblue;
+}
