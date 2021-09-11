@@ -6,28 +6,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
 }
 .img-style {
-  height: 72px;
-  width: 120px;
+  height: 80px;
+  width: 80px;
+  justify-content: center;
 }
 .header-appname {
   font-size: 32px;
-  color: beige;
+  font-weight: bolder;
+  color: #dcf3f9;
   letter-spacing: 0.2px;
   text-align: center;
 }
 .header-tagline {
-  color: beige;
+  color: #dcf3f9;
+  font-weight: bold;
   text-align: center;
+  font-size: 32px;
 }
 .google-button-container {
   margin: 10px;
   text-align: center;
+  background-color: #39a9db;
+  border: none;
+  border-radius: 15px;
+  color: #dcf3f9;
+  font-size: 15px;
 }
 .login-msg {
   margin: 5px;
   text-align: center;
   font-size: 24px;
-  color: aliceblue;
+  color: #1c77c3;
 }
