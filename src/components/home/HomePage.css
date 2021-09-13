@@ -1,0 +1,60 @@
+.root {
+  margin: 0;
+  height: 100vh;
+  padding: 0px;
+}
+.navbar-custom {
+  margin: 0px;
+  padding: 0px;
+}
+.container-nav {
+  background-color: #14588f;
+  height: 8vh;
+  margin: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.navbar-heading {
+  color: #dcf3f9;
+  margin: 4px 0px 0px 2px;
+  font-size: 23px;
+}
+.logo-style {
+  height: 35px;
+  width: 35px;
+  margin: 6px;
+}
+.avatar-style {
+  font-size: 35px;
+  color: #dcf3f9;
+  margin: 0px 5px 5px 0px;
+  border: none;
+  background: none;
+}
+.dropdown-icon {
+  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #14588f;
+}
+.dropdown-username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #14588f;
+}
+.logout-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}

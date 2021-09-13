@@ -2,12 +2,12 @@ import axios from "axios";
 import React, { Component } from "react";
 import GoogleLogin from "react-google-login";
 import "./login.css";
-import image from "../../assets/web-bg.png";
+import image from "../../assets/web3bg.jpg";
 
 export default class Login extends Component {
   componentDidMount() {
     if (localStorage.getItem("token") !== null) {
-      this.props.history.replace("/");
+      this.props.history.replace("/send_email");
     }
   }
   responseGoogle = (response) => {
@@ -19,7 +19,7 @@ export default class Login extends Component {
         localStorage.setItem("token", res.data.accessToken);
         sessionStorage.setItem("email", res.data.email);
         sessionStorage.setItem("username", res.data.username);
-        this.props.history.replace("/");
+        this.props.history.replace("/send_email");
         console.log(res);
       })
       .catch((err) => {
@@ -40,10 +40,11 @@ export default class Login extends Component {
           <div style={{ textAlign: "center" }}>
             <img src="/images/logo2.png" className="img-style" alt="" />
             <div className="header-appname">
-              Mail<span style={{ color: "#14588F" }}>X</span>
+              Mail<span style={{ color: "#39a9db" }}>X</span>
             </div>
             <div className="header-tagline">
-              Send E-Mails to anyone anywhere.
+              Send E-Mails to anyone anywhere. <br />
+              Happy Mailing!
             </div>
           </div>
         </div>
@@ -63,8 +64,8 @@ export default class Login extends Component {
                     <ion-icon
                       name="logo-google"
                       style={{
-                        margin: "0px 5px -2px 0px",
-                        fontSize: "16px",
+                        margin: "0px 15px -5px 0px",
+                        fontSize: "20px",
                         color: "white",
                       }}></ion-icon>
                     Login with Google

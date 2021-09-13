@@ -12,6 +12,9 @@
   height: 80px;
   width: 80px;
   justify-content: center;
+  border-radius: 50%;
+  box-shadow: 5px 10px 18px #14588f;
+  z-index: 3;
 }
 .header-appname {
   font-size: 32px;
@@ -21,17 +24,18 @@
   text-align: center;
 }
 .header-tagline {
+  margin-top: 20px;
   color: #dcf3f9;
   font-weight: bold;
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
 }
 .google-button-container {
   margin: 10px;
   text-align: center;
   background-color: #39a9db;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   color: #dcf3f9;
   font-size: 15px;
 }
