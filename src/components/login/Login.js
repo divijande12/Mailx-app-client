@@ -50,7 +50,7 @@ export default class Login extends Component {
         </div>
         <div
           className="col-md-6 custom-column"
-          style={{ backgroundColor: "white" }}>
+          style={{ backgroundColor: "whitesmoke" }}>
           <div>
             <div className="login-msg">Sign In to send E-mails</div>
             <div className="google-button-container">
